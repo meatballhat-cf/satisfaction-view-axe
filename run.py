@@ -17,4 +17,4 @@ class Runner(BaseRunner):
         ),
     ) -> Path:
         """Run the model on a single input"""
-        return "rick.jpg"
+        return Path("rick.jpg")
